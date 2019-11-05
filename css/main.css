@@ -1,0 +1,47 @@
+html {
+  line-height: 1.5;
+  box-sizing: border-box;
+  font-family: Merriweather, serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #d05c2e;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+font-size: 1.125rem;
+}
+
+img {
+  width: 40px;
+  display: flex;
+  align-items: flex-end;
+}
+
+header img {
+  display: flex;
+  align-items: flex-end;
+}
+
+h1 {
+  color: #fff;
+  font-size: 2rem;
+}
